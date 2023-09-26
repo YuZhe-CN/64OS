@@ -30,7 +30,7 @@ section .code
 ; display message
     mov ax, StartBootMessage
     mov bp, ax
-    mov cx, 17
+    mov cx, 16
     mov ax, 1301h
     mov bx, 0x2
     int 10h 
